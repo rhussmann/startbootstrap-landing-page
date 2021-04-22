@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     
 	fetch("https://crm.rhussmann.com/api/v1/LeadCapture/12c476975d7a2b47b58941c994958354", {
 	    method: "POST",
+	    mode: "cors",
 	    headers: {
 		"Content-Type": "application/json"
 	    },
