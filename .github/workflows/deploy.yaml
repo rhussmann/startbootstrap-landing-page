@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Deploy static site
-        uses: rhussmann/static-site-deploy-action@master
+        uses: rhussmann/static-site-deploy-action@main
         id: deploy
         with:
           wireguard-private-key: ${{ secrets.CTX_WIREGUARD_PRIVATE_KEY }}
